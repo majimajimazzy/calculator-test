@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
   }
   for(let i=0;i<someOperators.length;i++){
     someOperators[i].addEventListener('click',function(){
-      display.value+=' '+this.getAttribute('data-operator')+' ';
+      display.value+=this.getAttribute('data-operator')+' ';
     });
   }
   equal.addEventListener('click',function(){
